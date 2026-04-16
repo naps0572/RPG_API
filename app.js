@@ -73,4 +73,5 @@ app.post("/batalla", (req, res) => {
   res.json({ p1: {nombre:p1.nombre, puntaje:s1}, p2:{nombre:p2.nombre, puntaje:s2}, ganador });
 });
 
-app.listen(3000, () => console.log("http://localhost:3000"));
+const PORT = 3001;
+app.listen(PORT, () => console.log(`http://localhost:${PORT}`));

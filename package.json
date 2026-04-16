@@ -6,6 +6,19 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "^4.19.2"
-  }
+    "express": "^4.22.1"
+  },
+  "description": "API REST para gestión de personajes y batallas.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naps0572/RPG_API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/naps0572/RPG_API/issues"
+  },
+  "homepage": "https://github.com/naps0572/RPG_API#readme"
 }
